@@ -159,7 +159,7 @@ c_font=font.Font(opening_inst,opening_inst.cget("font"))
 c_font.configure(underline=True)
 opening_inst.configure(font=c_font)
 opening_inst.pack(pady=30)
-opening_s = tk.Label(opening_frame, text=" 1. Questions will be asked on the specific topic.",
+opening_s = tk.Label(opening_frame, text=" 1. Questions will be asked on the topic-Python Language.",
                      font=("Times", 12, "bold italic"), fg="green")
 opening_s.pack()
 t = tk.Label(opening_frame, text="2. This game offers multiple choice questions which will have several options.",
